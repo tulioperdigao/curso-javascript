@@ -8,16 +8,23 @@
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Tabuada</h1>
     </header>
 
     <section>
-        <div>
-            div
+        <div id="formulario">
+            <p>Número: 
+                <input type="number" name="txtnum" id="txtnum">
+                <input type="button" value="Gerar Tabuada" id="btn" onclick="calcular()">
+            </p>
+            
+            
         </div>
 
-        <div>
-            div
+        <div id="tabuada-section">
+            <select name="tabuada" id="tabuada" size="11">
+                <option>Digite um número acima</option>
+            </select>
         </div>
     </section>
 
