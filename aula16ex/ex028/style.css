@@ -33,8 +33,23 @@ section {
 section div {
     text-align: center;
     margin: 20px 0px;
-    border: 1px solid black;
     padding: 10px;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    font-size: 0.9rem
+}
+
+#txtnum {
+    width: 100px;
+}
+
+#resultado {
+    text-align: left;
 }
 
 footer {
