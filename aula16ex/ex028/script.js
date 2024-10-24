@@ -5,6 +5,7 @@ function adicionar() {
     let num = document.getElementById('txtnum')
     let lista = document.getElementById('valores')
     let number = Number(num.value)
+    
 
     if (number == 0 || number > 100 || number.length == 0) {
         window.alert('Digite um número válido!')
@@ -20,6 +21,8 @@ function adicionar() {
         }
         
     }
+    num.value = ''
+    num.focus()
 }
 
 function analisar() {
